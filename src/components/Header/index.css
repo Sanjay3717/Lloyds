@@ -1,0 +1,33 @@
+.header-internal-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px solid;
+}
+.cart-icon {
+  height: 30px;
+  width: 40px;
+
+  margin: 20px;
+}
+.header-container {
+  background-color: yellow;
+}
+.cart-container {
+  border: 0px solid;
+  background-color: white;
+  border-radius: 20px;
+  height: 60px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and(max-height:800px & min-height:900px) {
+  .header-container {
+    display: none;
+  }
+}

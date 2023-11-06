@@ -1,0 +1,25 @@
+.product-heading-container {
+  display: flex;
+  align-items: center;
+}
+.product-alignment {
+  display: flex;
+  padding-right: 20px;
+}
+.title-arrow-mark {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+@media and(max-width: 600px) {
+  .product-alignment {
+    display: flex;
+    padding-right: 5px;
+  }
+  .title-arrow-mark {
+    font-size: 15px;
+    font-weight: bold;
+    scroll: auto;
+  }
+}
